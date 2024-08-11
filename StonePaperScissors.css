@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    color:white;
+}
+.selection{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    text-transform: capitalize;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.selection:hover{
+    border:10px solid green;
+}
+
+.btn:hover{
+    border: 5px solid rgb(226, 226, 232); 
+}
+.fixcolor{
+    border:10px solid green;
+
+}
+.btn{
+    width: 500px;
+    height: 50px;
+    background-color: green;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 50px;
+}
+.wrapper{
+    justify-content: center;
+    background-color: red;
+    margin-top: 10%;
+}
+.interface{
+    float: left;
+    display:block;
+    
+}
+.face{
+    width: 300px;
+    height: 300px;
+    float: left; 
+    margin-left: 100px;
+     background-color: green;
+     border-radius: 50%;
+     justify-content: center;
+     text-align: center;
+
+}
+.face > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.selection > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.user-name{
+    font-size: 30px;
+}
+#computer,#user{
+    font-size: 20px;
+}
+ .title{
+    text-align: center;
+    background-color: green;
+    border: 2px solid white;
+}
+.won-alert{
+    width: 700px;
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    z-index: 2;
+    position: absolute;
+    left: 25%;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    border-radius:30%;
+}
